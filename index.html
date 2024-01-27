@@ -20,10 +20,6 @@
       Date
       <input type="text" name="date" />
     </label>
-    <!-- <label>
-      Time
-      <input type="text" name="time" />
-    </label> -->
     <label>
       Location
       <input type="text" name="location" />
@@ -34,7 +30,24 @@
     </label>
     <button>Add Party</button>
   </form>
+
   <ul id="party"></ul>
+
+  <form id="guestForm" style="display: none;">
+    <h2>Guest Information</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="guestName" name="name">
+    <label for="email">Email:</label>
+    <input type="email" id="guestEmail" name="email">
+    <label for="phone">Phone:</label>
+    <input type="text" id="guestPhone" name="phone">
+
+    <input type="hidden" id="partyId" name="partyId">
+    <button type="submit" id="guestSubmit">Submit</button>
+  </form>
+  
+  <ul id="guests"></ul>
+
 </body>
 
 </html>
