@@ -1,4 +1,5 @@
-const COHORT = "2109-CPU-RM-WEB-PT";
+//use out cohort
+const COHORT = "2311-FSA-ET-WEB-PT-SF";
 const API_URL = `https://fsa-crud-2aa9294fe819.herokuapp.com/api/${COHORT}/events`;
 const API_URL_RSVP = `https://fsa-crud-2aa9294fe819.herokuapp.com/api/${COHORT}/rsvps`;
 const API_URL_GUESTS = `https://fsa-crud-2aa9294fe819.herokuapp.com/api/${COHORT}/guests`;
